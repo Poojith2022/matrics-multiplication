@@ -1,0 +1,12 @@
+class Neu:
+
+    def __init__(self):
+        self.A = int(input('Type the total number of Nucleons (A) = '))
+        self.Z = int(input('Type Number of protons (Z) = '))
+        self.N = self.A - self.Z
+
+    def Print(self):
+      print('\nNumber of Neutrons (N) = ',self.N)
+
+A = Neu()
+A.Print()
